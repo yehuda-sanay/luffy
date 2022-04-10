@@ -1,0 +1,77 @@
+@keyframes anima{
+    from{background-color: blue;}
+    to{background-color: green;}   
+}
+
+#anim17 {
+    height: 20vw;
+    width: 20vh;
+    background-color: black;
+    animation-name:anima;
+    animation-duration: 5s;
+}
+
+@keyframes animb {
+    0%{background-color: blue;}
+    25%{background-color: green;}
+    75%{background-color: yellow;}
+    100%{background-color: red;}
+}
+#anim18 {
+    height: 20vh;
+    width: 20vw;
+    background-color: black;
+    animation: animb 5s;
+}
+@keyframes luffy2{
+    from{filter:opacity(100%);}
+    to{filter: opacity(0%);}
+}
+
+
+#anim19{
+    height: 20vh;
+    width: 20vw;
+    display: flex;
+    animation: luffy2 5s;
+
+}
+
+@keyframes luffy3{
+    from{ filter: blur(1);}
+    to{filter: blur(0);}
+}
+
+
+#anim20 {
+    height: 20vh;
+    width: 20vw;
+    display: flex;
+    animation: luffy3 5s;
+}
+
+@keyframes luffy4{
+    from{filter: sepia(0);}
+    to{filter: sepia(1);}
+}
+
+#anim21{
+    width: 20vw;
+    height: 20vh;
+    display: flex;
+    animation: luffy4 5s;
+}
+@keyframes luffy5{
+    from{background-color: orangered;float: left;}
+    to{background-color: palevioletred;float: right;}
+    
+}
+
+#anim22{
+    width: 20vh;
+    height: 20vw;
+    animation: luffy5 5s alternate;
+}
+
+
+
