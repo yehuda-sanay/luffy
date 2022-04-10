@@ -72,6 +72,19 @@
     height: 20vw;
     animation: luffy5 5s alternate;
 }
+@keyframes luffy6{
+    0%{background-color: red;}
+    25%{background-color: green;}
+    75%{background-color: yellow;}
+    100%{background-color: lightblue;}
+}
+
+#anim23{
+    height: 20vh;
+    width: 20vw;
+    animation: luffy6 5s;
+}
+
 
 
 
